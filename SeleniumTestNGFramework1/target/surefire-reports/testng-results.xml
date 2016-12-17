@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16790" started-at="2016-12-10T04:52:25Z" finished-at="2016-12-10T04:52:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16790" started-at="2016-12-10T04:52:25Z" finished-at="2016-12-10T04:52:42Z">
+      <class name="in.keys2javaselenium.newtour1.testrunner.NewToursRunner">
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String)[pri:0, instance:in.keys2javaselenium.newtour1.testrunner.NewToursRunner@30c7da1e]" name="init" is-config="true" duration-ms="15880" started-at="2016-12-10T10:22:26Z" finished-at="2016-12-10T10:22:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyHomePage(java.lang.String)[pri:0, instance:in.keys2javaselenium.newtour1.testrunner.NewToursRunner@30c7da1e]" name="verifyHomePage" duration-ms="10" started-at="2016-12-10T10:22:42Z" data-provider="newtours" finished-at="2016-12-10T10:22:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Welcome: Mercury Tours1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+      </class> <!-- in.keys2javaselenium.newtour1.testrunner.NewToursRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
